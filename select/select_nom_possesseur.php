@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+include '../config.php';
 
 $reponse = $pdo->query('SELECT nom, possesseur FROM jeux WHERE possesseur=\'Patrick\'');
 

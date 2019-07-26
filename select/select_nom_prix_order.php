@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+include '../config.php';
 
 $reponse = $pdo->query('SELECT nom, prix FROM jeux ORDER BY prix DESC');
 

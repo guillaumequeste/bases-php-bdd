@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+include '../config.php';
 
 $pdo->exec("UPDATE jeux SET prix = '10', nbre_joueurs_max = '32' WHERE nom = 'Battlefield 1942'");
 

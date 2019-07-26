@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+include '../config.php';
 
 $pdo->exec("DELETE FROM jeux WHERE nom='Battlefield 1942'");
 
