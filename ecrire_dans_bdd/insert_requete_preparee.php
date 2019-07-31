@@ -1,7 +1,7 @@
 <?php
 include '../config.php';
 
-// Les variables telles que$nomet$possesseurdoivent avoir été définies précédemment. Généralement, on récupèrera des variables de$_POST(issues d'un formulaire) pour insérer une entrée dans la base de données.
+// Les variables telles que $nom et $possesseur doivent avoir été définies précédemment. Généralement, on récupèrera des variables de $_POST(issues d'un formulaire) pour insérer une entrée dans la base de données.
 $req = $pdo->prepare('INSERT INTO jeux(nom, possesseur, console, prix, nbre_joueurs_max, commentaires) VALUES(:nom, :possesseur, :console, :prix, :nbre_joueurs_max, :commentaires)');
 $req->execute(array(
 	'nom' => $nom,

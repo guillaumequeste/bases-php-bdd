@@ -9,9 +9,9 @@ Elles permettent par exemple de convertir tout le contenu d'un champ en majuscul
 les fonctions d'agrégat : elles effectuent des calculs sur plusieurs entrées pour retourner une et une seule valeur.
 Par exemple : calcul de la moyenne, somme des valeurs, comptage du nombre d'entrées…
 
-On peut donner un autre nom aux champs modifiés par les fonctions en créant des alias à l'aide du mot-cléAS.
+On peut donner un autre nom aux champs modifiés par les fonctions en créant des alias à l'aide du mot-clé AS.
 
-Lorsqu'on utilise une fonction d'agrégat, il est possible de regrouper des données avecGROUP BY.
+Lorsqu'on utilise une fonction d'agrégat, il est possible de regrouper des données avec GROUP BY.
 
-Après un groupement de données, on peut filtrer le résultat avecHAVING.
+Après un groupement de données, on peut filtrer le résultat avec HAVING.
 Il ne faut pas le confondre avec WHERE qui filtre avant le groupement des données.
